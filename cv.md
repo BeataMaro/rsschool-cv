@@ -92,3 +92,56 @@ generateCodeForm.addEventListener('submit', generateCode);
 clearBtn.addEventListener('click', clearForm);
 
 ```
+## Experience
+
+### junior front-end developer 
+
+**Tom & Co**
+e-commerce Magento Agency
+
+### Freelance project 
+
+<a href="http:www.selfmax.pl" target="_blank">selfmax.pl</a>
+
+### graphic designer - trainee
+
+**Grupa Leonardo** - advertising and
+interactive agency
+
+### marketing specialist
+
+Website editor: <a href="https:www.palac.art.pl" target="_blank" >palac.art.pl</a>
+
+## Education
+
+### The Web Developer Bootcamp 2021 - Udemy
+
+Real project building and deploying.
+Technologies: NodeJS, ExpressJS,
+MongoDB and Mongoose.
+Authentication and security issues.
+
+### React basic course - Eduweb.pl
+
+functional and class components,
+React hooks, Redux, styled-components.
+
+### University of Technology, Białystok
+
+postgraduate studies, **Web applications - Front-end Development**.
+
+### University of Economics, Katowice
+
+Management in culture, art and cultural tourism.
+
+### University of Occupational Safety Management, Katowice
+
+Culture studies-audiovisual comunication.
+
+
+## Languages
+
+**polish**: native <br>
+**english**: intermediate
+
+English is in my everyday life. I use it each time I use a computer, or smartphone application or when I watch movies. I have worked in the United Kingdom Company, therefore, I had to communicate in English. However, because of remote work, most often I have been writing messages instead of speaking. It’s not a problem for me to read in English but I haven't too much experience speaking English. I do my best to improve my skills by for example learning on the Duolingo platform.
