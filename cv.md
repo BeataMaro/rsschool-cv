@@ -2,10 +2,10 @@
 
 ## Contact Information
 
-**Email**: maro.beata@gmail.com <br>
-**Telegram**: @beatamaro <br>
-[Github](https://github.com/BeataMaro) <br>
-[LinkedIn](https://www.linkedin.com/in/beata-maro-junior-web-developer/) <br>
+**Email**: maro.beata@gmail.com <br />
+**Telegram**: @beatamaro <br />
+[Github](https://github.com/BeataMaro) <br />
+[LinkedIn](https://www.linkedin.com/in/beata-maro-junior-web-developer/) <br />
 
 ## About me
 
@@ -141,7 +141,7 @@ Culture studies-audiovisual comunication.
 
 ## Languages
 
-**polish**: native <br>
+**polish**: native <br />
 **english**: intermediate
 
 English is in my everyday life. I use it each time I use a computer, or smartphone application or when I watch movies. I have worked in the United Kingdom Company, therefore, I had to communicate in English. However, because of remote work, most often I have been writing messages instead of speaking. It’s not a problem for me to read in English but I haven't too much experience speaking English. I do my best to improve my skills by for example learning on the Duolingo platform.
