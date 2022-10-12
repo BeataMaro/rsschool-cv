@@ -101,7 +101,7 @@ e-commerce Magento Agency
 
 ### Freelance project 
 
-<a href="http:www.selfmax.pl" target="_blank">selfmax.pl</a>
+<a href="http://www.selfmax.pl" target="_blank">selfmax.pl</a>
 
 ### graphic designer - trainee
 
@@ -110,7 +110,7 @@ interactive agency
 
 ### marketing specialist
 
-Website editor: <a href="https:www.palac.art.pl" target="_blank" >palac.art.pl</a>
+Website editor: <a href="https://www.palac.art.pl" target="_blank" >palac.art.pl</a>
 
 ## Education
 
