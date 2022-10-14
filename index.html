@@ -106,7 +106,7 @@
             let charset = [...DEFAULT_CHARSET]; <br >
             let codes = []; <br >
 
-            const generateCode = (ev) => { <br >
+            const generateCode = (ev) =&gt; { <br >
             ev.preventDefault();<br >
             generatedCodes.innerHTML = '';<br >
 
@@ -117,7 +117,7 @@
             let codeLength = formProps.codeLength || 3;<br >
             let prefix = formProps.codePrefix.trim();<br >
             let postfix = formProps.codePostfix.trim();<br >
-            formProps.setCharacterSet.length > 0<br >
+            formProps.setCharacterSet.length &gt; 0<br >
             ? (charset = [...formProps.setCharacterSet])<br >
             : (charset = [...DEFAULT_CHARSET]);<br >
 
