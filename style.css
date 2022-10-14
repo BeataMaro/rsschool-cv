@@ -38,7 +38,7 @@ body {
   width: 80%;
   margin: 2rem auto;
   box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
 
 header {
@@ -60,11 +60,11 @@ h1 {
 }
 
 h2 {
-  background-color: rgb(246, 246, 247);
+  background-color: #f6f6f7;
 }
 
 h3 {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #808080;
 }
 
 h1,
@@ -114,7 +114,7 @@ main {
 footer {
   grid-area: footer;
   padding: 1rem;
-  background-color: slategrey;
+  background-color: #708090;
 }
 
 footer nav ul {
