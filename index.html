@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Beata Maro - CV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,500&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
+    >
+    <link rel="stylesheet" href="./style.css" >
   </head>
   <body>
     <div class="wrapper">
@@ -19,10 +19,10 @@
         <h1>Beata Maro</h1>
         <strong>junior front-end developer</strong>
         <img
-          src="./assets/BM - cv photo.jpg"
+          src="./assets/BM-cv_photo.jpg"
           alt="profile photo"
           class="cv-photo"
-        />
+        >
         <nav>
           <section class="contacts">
             <h2>Contacts</h2>
@@ -53,7 +53,7 @@
       <main>
         <section>
           <h2>About me</h2>
-          <article>
+          <p>
             I have been programming for 3 years and I have 5-months of
             commercial experience in programming online stores. I am a team
             player. It's important for me to be a value part of team. I am
@@ -62,7 +62,7 @@
             satisfied when the application takes shape. What motivates me the
             most to continue my efforts are the visible effects of my work and
             the fact that my future projects can become useful to others.
-          </article>
+          </p>
         </section>
         <section>
           <h2>Education and English level</h2>
@@ -80,60 +80,60 @@
           <code
             >const DEFAULT_CHARSET =
             '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-            <br />
-            const roll = (min, max) => {<br />
-            let random = Math.floor(Math.random() * (max - min) + min);<br />
-            return random;<br />
+            <br >
+            const roll = (min, max) =&gt; {<br >
+            let random = Math.floor(Math.random() * (max - min) + min);<br >
+            return random;<br >
             };
-            <br />
+            <br >
             const generateCodeForm =
-            document.getElementById('generateCodeForm');<br />
-            const clearBtn = document.getElementById('clearBtn');<br />
-            const generatedCodes = document.getElementById('generatedCodes');<br />
-            <br />
-            let charset = [...DEFAULT_CHARSET]; <br />
-            let codes = []; <br />
+            document.getElementById('generateCodeForm');<br >
+            const clearBtn = document.getElementById('clearBtn');<br >
+            const generatedCodes = document.getElementById('generatedCodes');<br >
+            <br >
+            let charset = [...DEFAULT_CHARSET]; <br >
+            let codes = []; <br >
 
-            const generateCode = (ev) => { <br />
-            ev.preventDefault();<br />
-            generatedCodes.innerHTML = '';<br />
+            const generateCode = (ev) => { <br >
+            ev.preventDefault();<br >
+            generatedCodes.innerHTML = '';<br >
 
-            const formData = new FormData(ev.target);<br />
-            const formProps = Object.fromEntries(formData);<br />
+            const formData = new FormData(ev.target);<br >
+            const formProps = Object.fromEntries(formData);<br >
 
-            let amountOfCodes = formProps.amountOfCodes || 1;<br />
-            let codeLength = formProps.codeLength || 3;<br />
-            let prefix = formProps.codePrefix.trim();<br />
-            let postfix = formProps.codePostfix.trim();<br />
-            formProps.setCharacterSet.length > 0<br />
-            ? (charset = [...formProps.setCharacterSet])<br />
-            : (charset = [...DEFAULT_CHARSET]);<br />
+            let amountOfCodes = formProps.amountOfCodes || 1;<br >
+            let codeLength = formProps.codeLength || 3;<br >
+            let prefix = formProps.codePrefix.trim();<br >
+            let postfix = formProps.codePostfix.trim();<br >
+            formProps.setCharacterSet.length > 0<br >
+            ? (charset = [...formProps.setCharacterSet])<br >
+            : (charset = [...DEFAULT_CHARSET]);<br >
 
-            for (let j = 1; j <= amountOfCodes; j++) {<br />
-            let code = [];<br />
-            for (let i = 0; i <= codeLength - 1; i++) {<br />
-            let index = roll(0, charset.length - 1);<br />
-            let randomChar = charset[index];<br />
-            code.push(randomChar);<br />
-            }<br />
+            for (let j = 1; j &lt;= amountOfCodes; j++) {<br >
+            let code = [];<br >
+            for (let i = 0; i &lt;= codeLength - 1; i++) {<br >
+            let index = roll(0, charset.length - 1);<br >
+            let randomChar = charset[index];<br >
+            code.push(randomChar);<br >
+            }<br >
 
-            let completeCode = `${prefix}${code.join('')}${postfix}`;<br />
-            codes.push(completeCode);<br />
-            }<br />
+            let completeCode = `${prefix}${code.join('')}${postfix}`;<br >
+            codes.push(completeCode);<br >
+            }<br >
 
-            codes.map((code) => {<br />
-            const codeDiv = document.createElement('p');<br />
-            codeDiv.textContent = code;<br />
-            generatedCodes.append(codeDiv);<br />
-            });<br />
-            };<br />
+            codes.map((code) =&gt; {<br >
+            const codeDiv = document.createElement('p');<br >
+            codeDiv.textContent = code;<br >
+            generatedCodes.append(codeDiv);<br >
+            });<br >
+            };<br >
 
-            const clearForm = () => {<br />
-            generateCodeForm.reset();<br />
-            codes = [];<br />
-            };<br />
+            const clearForm = () =&gt; {<br >
+            generateCodeForm.reset();<br >
+            codes = [];<br >
+            };<br >
 
-            generateCodeForm.addEventListener('submit', generateCode);<br />
+            generateCodeForm.addEventListener('submit', generateCode);<br >
             clearBtn.addEventListener('click', clearForm);</code
           >
         </section>
@@ -153,7 +153,7 @@
                   src="https://camo.githubusercontent.com/b3c4c8e7b17b79294687df1cb3c65664fe848905a75b2698b4abed2ccc38db58/68747470733a2f2f7777772e72732e7363686f6f6c2f696d616765732f72735f7363686f6f6c2e737667"
                   alt="rsschool logo"
                   class="rsschool-logo"
-              /></a>
+              ></a>
             </li>
           </ul>
         </nav>
