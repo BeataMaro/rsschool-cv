@@ -32,28 +32,60 @@ body {
   display: grid;
   grid-template-areas:
     "left-col right-col"
+    "code-example code-example"
     "footer footer";
   min-height: 80vh;
-  max-width: 80vw;
-  margin: 2rem;
+  width: 80%;
+  margin: 2rem auto;
   box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
   background-color: rgb(255, 255, 255);
 }
 
 header {
   grid-area: left-col;
+}
+
+header,
+header section {
   display: flex;
   flex-direction: column;
   background-color: #a9b4c6;
+  padding: 1rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+h2 {
+  background-color: rgb(246, 246, 247);
+}
+
+h3 {
+  border-bottom: 1px solid grey;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+}
+
+header strong {
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 header img.cv-photo {
   width: 250px;
   height: 250px;
+  margin: 1.2rem 0;
 }
 
-main {
-  grid-area: right-col;
+header ul li span {
+  color: #ffd100;
 }
 
 section {
@@ -65,12 +97,18 @@ ul.skills li {
   margin: 0.5rem 1.5rem;
 }
 
-h2 {
-  background-color: rgb(246, 246, 247);
+main {
+  grid-area: right-col;
+  padding-top: 2rem;
 }
 
 .code-example {
+  grid-area: code-example;
   background-color: #ddd;
+}
+
+.code-example code {
+  font-size: 0.8rem;
 }
 
 footer {
