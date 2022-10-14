@@ -6,16 +6,90 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
+  font-family: "Poppins", sans-serif;
   min-height: 100vh;
   background-color: #dddd;
+  scroll-behavior: smooth;
+  display: grid;
+  place-items: center;
 }
 
 .wrapper {
-  display: flex;
+  display: grid;
+  grid-template-areas:
+    "left-col right-col"
+    "footer footer";
   min-height: 80vh;
   max-width: 80vw;
-  margin: 10vh auto;
-  padding: 3rem;
-  box-shadow: 1px 1px 40px rgba(0,0,0,.2);
+  margin: 2rem;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  grid-area: left-col;
+  display: flex;
+  flex-direction: column;
+  background-color: #a9b4c6;
+}
+
+header img.cv-photo {
+  width: 250px;
+  height: 250px;
+}
+
+main {
+  grid-area: right-col;
+}
+
+section {
+  padding: 1em;
+}
+
+ul.skills li {
+  list-style-type: square;
+  margin: 0.5rem 1.5rem;
+}
+
+h2 {
+  background-color: rgb(246, 246, 247);
+}
+
+.code-example {
+  background-color: #ddd;
+}
+
+footer {
+  grid-area: footer;
+  padding: 1rem;
+  background-color: slategrey;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer nav ul li {
+  color: #ddd;
+  font-weight: bold;
+}
+
+.rsschool-logo {
+  width: 100px;
 }
