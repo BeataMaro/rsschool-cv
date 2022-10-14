@@ -1,1 +1,1 @@
-### [CV - Live view](https://beatamaro.github.io/rsschool-cv/cv)
+### [CV html - Live view](https://beatamaro.github.io/rsschool-cv)
