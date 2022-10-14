@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #dddd;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 80vh;
+  max-width: 80vw;
+  margin: 10vh auto;
+  padding: 3rem;
+  box-shadow: 1px 1px 40px rgba(0,0,0,.2);
+}
